@@ -1,0 +1,46 @@
+20231130_assignment1_questions
+
+question 1
+HTML stands for Hypertext Markup Language, it is the building block of a webpage layout and it's purpose in front-end web development is to structure the layout of a webpage.
+
+question 2
+An HTML element is a component that tells the web browser how to structure and interpret the html document, 
+It contains the opening tag, the content and the closing tag. 
+Whereas attributes are special words within the opening tag of an HTML element and gives additional information about the HTML element. It comes with a name and value pair
+with the structure name="value".
+
+question 3
+The DOCTYPE declaration in HTML informs the browser on the version of HTML that is being used and allows the 
+browser to render uniformly across different browsers. When omitted the browser can render the page differently because it is forced to go into "quirks mode". 
+
+question 4
+The difference between inline elements and block level elements is that, block elements always starts a new line and they take 
+take up the full width available, examples include <p> <section> <div> .Whereas, and inline elements do not start a new line, and 
+only takes up as much width as necessary, examples include <span> <button> <br>.
+
+question 5
+<head> head element; head tag is used for holding metadata for the document eg. title, links, etc. and is not displayed on the page.
+<div>: division element; this is the container that divides the page into sections. They do not inherently have a visual representation, but they are useful in applying custom style sheets to HTML elements.
+<img>: image element; self closing tag that this displays images on the webpage.
+<ul>: unordered list element; displays an unordered list.
+<ol>: ordered list element; displays an ordered list in numbered format.
+<li>: list element; describes an item in the list.
+
+question 6
+Semantic HTML elements are tags that clearly describe its meaning to the browser and the developer. 
+Examples include <section> <footer> <header>
+These elements are important in SEO because search engines will consider it's contents relevant and rank it higher in searches. 
+And for accessibility, these elements are used by screen readers to help navigate the page easily.
+
+question 7
+The purpose of form elements is to create a document section for user input. Controls used in form include: <input> <button> <select>
+
+question 8
+Comments can be added in HTML by using  <!--...--> and are added to the source code to help in explaining the code.
+
+question 9
+HTML 5 standard is a term used to loosely refer to the latest version of HTML that is continously being updated. New features include,
+support for advanced graphics and embedded multimedia.
+
+question 10
+Responsive  web design is designing webpages that are able to be rendered seemlessly across all devices while also ensuring good usability.
