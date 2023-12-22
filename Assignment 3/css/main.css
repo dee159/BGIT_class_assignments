@@ -35,7 +35,7 @@ html {
   --grey-800: #262626;
   --grey-900: #171717;
 
-  /* rest of the colors used for alerts */
+  /* colors used for alerts */
   --black: #222;
   --white: #fff;
   --red-light: #f8d7da;
@@ -49,15 +49,15 @@ html {
   --smallText: 0.694rem;
 
   /* rest of the vars */
-  --backgroundColor: var(--grey-50);
+  --backgroundColor: var(--grey-300);
   --textColor: var(--grey-900);
-  --borderRadius: 0.25rem;
+  --borderRadius: 0.375rem;
   --letterSpacing: 1px;
   --transition: 0.3s ease-in-out all;
   --max-width: 1120px;
   --fixed-width: 600px;
 
-  /* box shadow*/
+  /* box shadow (tailwind)*/
   --shadow-1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); /*sm*/
   --shadow-2: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
     0 2px 4px -1px rgba(0, 0, 0, 0.06); /*m*/
@@ -135,6 +135,7 @@ ul {
   display: block;
   object-fit: cover;
 }
+
 /* buttons */
 
 .btn {
@@ -146,22 +147,26 @@ ul {
   letter-spacing: var(--letterSpacing);
   padding: 0.375rem 0.75rem;
   box-shadow: var(--shadow-1);
-  transition: var(--transtion);
+  transition: var(--transition);
   text-transform: capitalize;
   display: inline-block;
 }
+
 .btn:hover {
   background: var(--primary-700);
   box-shadow: var(--shadow-3);
 }
+
 .btn-hipster {
   color: var(--primary-500);
   background: var(--primary-200);
 }
+
 .btn-hipster:hover {
   color: var(--primary-200);
   background: var(--primary-700);
 }
+
 .btn-block {
   width: 100%;
 }
