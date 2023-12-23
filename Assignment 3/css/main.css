@@ -310,5 +310,44 @@ Navbar
 }
 
 
+/*
+=============== 
+Page
+===============
+*/
+.page{
+  /*background: red;*/
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
+}
 
+
+
+/*
+=============== 
+footer
+===============
+*/
+.page-footer{
+  height: 4rem;
+  background: var(--primary-500);
+  color: var(--textColor);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-footer p{
+  margin-bottom: 0;
+}
+
+
+
+/*
+=============== 
+
+===============
+*/
 
