@@ -68,7 +68,7 @@ html {
 }
 
 body {
-  background: var(--backgroundColor);
+  background: var(--grey-50);
   font-family: var(--bodyFont);
   font-weight: 400;
   line-height: 1.75;
@@ -370,6 +370,55 @@ Hero
   text-align: center;
   color: var(--primary-300);
 }
+
+/*
+=============== 
+Recipes
+===============
+*/
+.recipes-container{
+  display: grid;
+  gap: 2rem 1rem;
+  
+}
+.recipes-list{
+  display: grid;
+  gap: 2rem 1rem;
+  padding-bottom: 3rem;
+  
+}
+.recipe{
+  display: block;
+}
+.recipe-img{
+  height: 15rem;
+  border-radius: var(--borderRadius);
+  margin-bottom: 1rem;
+}
+.recipe h5{
+  margin-bottom: 0;
+  line-height: 1;
+  color: var(--grey-700);
+}
+.recipe p{
+  margin-bottom: 0;
+  line-height: 0.5rem;
+  margin-top: 0.5rem;
+  color: var(--grey-500);
+  letter-spacing: var(--letterSpacing);
+}
+  @media screen and (min-width:576px) {
+    .recipes-list{
+      grid-template-columns: 1fr 1fr;
+    }
+    .recipe-img{
+      height: 20rem;
+    }
+  }
+ 
+
+
+
 
 /*
 =============== 
