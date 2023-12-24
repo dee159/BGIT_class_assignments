@@ -33,7 +33,7 @@
         <div class="nav-links">
           <a href="index.html" class="nav-link">home</a>
           <a href="about.html" class="nav-link">about</a>
-          <a href="tags.html" class="nav-link">tags</a>
+         <!--<a href="tags.html" class="nav-link">tags</a>-->
           <a href="recipes.html" class="nav-link">recipes</a>
           <a href="contact.html" class="nav-link">contact</a>
         </div>
@@ -41,7 +41,36 @@
    </nav>
    <!--end of nav-->
    <!-- main -->
-   <main class="page"></main>
+   <main class="page">
+    <section class="contact-container">
+      <article class="conatct-info">
+        <h3>Would love to hear from you</h3>
+        <p>Cupcake ipsum dolor sit amet powder lemon drops dragée. Gingerbread marshmallow ice cream I love marshmallow tootsie roll pudding. Jujubes sweet apple pie soufflé chocolate bar lemon drops.</p>
+        <p>Toffee muffin tootsie roll powder I love I love. Toffee donut gummi bears cotton candy pastry icing I love. Carrot cake jujubes cheesecake tootsie roll sugar plum.</p>
+      </article>
+      <article>
+        <form  class="form contact-form">
+          <!--single form row-->
+          <div class="form-row">
+            <label for="name" class="form-label">your name</label>
+            <input type="text" name="name" id="name" class="form-input">
+          </div>
+          <!--end of single form row-->
+           <!--single form row-->
+           <div class="form-row">
+            <label for="email" class="form-label">your email</label>
+            <input type="email" name="email" id="email" class="form-input">
+          </div>
+          <!--end of single form row-->
+          <div class="form-row">
+            <label for="message" class="form-label">Message</label>
+            <textarea name="message" id="message" class="form-textarea"></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Submit</button>
+        </form>
+      </article>
+    </section>
+   </main>
    <!--end of main-->
    <!--footer-->
    <footer class="page-footer">
